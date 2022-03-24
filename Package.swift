@@ -11,8 +11,7 @@ let package = Package(
         .package(name: "SwiftToolShellExecutor", url: "https://github.com/mklinkov/SwiftToolShellExecutor", .branch("master"))
     ],
     targets: [
-        .target(
-            name: "ExampleToolForBuildProject",
-            dependencies: [.product(name: "ArgumentParser", package: "swift-argument-parser"), "SwiftToolShellExecutor" ])
+        .executableTarget(name: "ExampleToolForBuildProject",
+                          dependencies: [.product(name: "ArgumentParser", package: "swift-argument-parser"), "SwiftToolShellExecutor" ])
     ]
 )
