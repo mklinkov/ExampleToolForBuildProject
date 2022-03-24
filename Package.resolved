@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "state": {
+          "branch": null,
+          "revision": "6b2aa2748a7881eebb9f84fb10c01293e15b52ca",
+          "version": "0.5.0"
+        }
+      },
+      {
+        "package": "SwiftToolShellExecutor",
+        "repositoryURL": "https://github.com/mklinkov/SwiftToolShellExecutor",
+        "state": {
+          "branch": "master",
+          "revision": "658f0f21894cc2e7c98834eb08cdb4d2f6aabbff",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
